@@ -1,139 +1,205 @@
-# Awesome-Sales-Gamification-Performance-Tracking
+# Awesome Sales Gamification & Performance Tracking [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-# Awesome Sales Gamification & Performance Tracking
-
-> A curated list of top Sales Gamification and Performance Tracking platforms — both SaaS/Hosted commercial solutions and open-source alternatives for motivating sales teams through competitions, leaderboards, and real-time KPI visibility.
-> 🌟 Star this repo if you find it useful! 🌟
+> A curated directory and benchmark of top **Sales Gamification** and **Sales Performance Tracking** platforms — comparing commercial SaaS suites and self-hosted open-source frameworks. Discover tools to motivate sales teams, accelerate pipeline velocity, automate KPI visibility, and drive revenue through leaderboard mechanics, contests, and real-time coaching.
+>
+> 🌟 Star this repository if you find it useful for your sales stack! 🌟
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Zoho Motivator](#zoho-motivator)
-  - [Spinify](#spinify)
-  - [Arcade](#arcade)
-  - [Centrical](#centrical)
-  - [Ambition](#ambition)
-  - [LevelEleven](#leveleleven)
-  - [Hoopla](#hoopla)
-  - [SmartWinnr](#smartwinnr)
-- [Open-Source Software](#-open-source-software)
-  - [GAME (Goals And Motivation Engine)](#game-goals-and-motivation-engine)
-  - [Meeds](#meeds)
-  - [Odoo Sales Gamification](#odoo-sales-gamification)
-  - [gamification-engine (gengine)](#gamification-engine-gengine)
-  - [oasis](#oasis)
-- [Comparison at a Glance](#-comparison-at-a-glance)
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [Commercial SaaS Platforms](#-commercial-saas-platforms)
+  - [SaaS Platforms Feature & Capability Breakdown](#saas-platforms-feature--capability-breakdown)
+- [Open-Source Software & Developer Frameworks](#-open-source-software--developer-frameworks)
+  - [Open-Source Ecosystem Breakdown](#open-source-ecosystem-breakdown)
+- [Feature Comparison Matrix](#-feature-comparison-matrix)
+- [Buying Guide & Implementation Strategy](#-buying-guide--implementation-strategy)
 - [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🌐 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Sales Gamification and Performance Tracking platforms. These are not open-source but are included as reference points for feature comparison.
+The global gamification software sector is estimated at **$30+ billion**, with the dedicated sales gamification, incentive compensation, and sales performance management (SPM) sub-segment accounting for over **$4 billion** and projected to surpass **$14 billion** at a compound annual growth rate (CAGR) exceeding 20%. 
 
-### Zoho Motivator
-**Type:** CRM-native gamification with TV channels and competitions
-Zoho Motivator integrates directly with Zoho CRM, syncing sales data in real-time to power KPIs, goals, and competitions without modifying CRM records . The platform lets managers set company, team, and individual targets for metrics like leads created or revenue generated, with personalized scorecards tracking progress [citation:8]. **Competitions** can be launched around specific KPIs or goals to drive focus, and **TV Channels** broadcast leaderboards and goal snapshots to office screens for visibility and recognition [citation:8]. A free tier is available after the 15-day trial, limited to one competition and company goals .
-**Best for:** Teams already using Zoho CRM wanting native gamification that syncs sales data automatically without separate integration work.
-
-### Spinify
-**Type:** Leaderboard-centric gamification with real-time visibility
-Spinify applies Octalysis gamification techniques and psychological motivation principles to drive performance, with real-time leaderboards displayed on TVs, Slack, Teams, and mobile [citation:2][citation:9]. Features include points, badges, and leaderboards (PBL), personalized celebrations with YouTube videos, and real-time KPI tracking. The platform claims a 43% increase in sales and 208% increase in KPI tracking visibility for customers [citation:2]. It is rated 4.6/5 across 1,000+ G2 reviews and holds #1 in G2's Sales Gamification category [citation:9]. All plans include unlimited metrics, TVs, and integrations with no per-module upsells.
-**Best for:** Sales teams wanting visually engaging, TV-driven leaderboards with instant recognition and minimal configuration.
-
-### Arcade
-**Type:** Gamified training and coaching with rewards
-Arcade's Gamify AI uses competition to motivate frontline teams to engage with coaching, training, and selling [citation:3]. Features include weekly challenges, live leaderboards, automatic rewards (points, badges, physical prizes via Tremendous), and peer-to-peer recognition. **Threshold-based competitions** reward employees for beating their historical average, driving incremental improvement rather than only rewarding top performers [citation:3]. Arcade also provides AI-powered sales roleplay and peer coaching, with 150,000+ hours of roleplay completed and 40%+ improved new hire retention [citation:10].
-**Best for:** Organizations wanting to combine gamification with training and coaching, particularly retail and frontline sales teams.
-
-### Centrical
-**Type:** Performance management with gamification and microlearning
-Centrical combines advanced gamification, personalized microlearning, and real-time performance management in one platform [citation:11]. It uses gamified goals, peer challenges, and store-level competitions to drive attach rates and basket size, with AI-powered coaching and just-in-time training [citation:4]. Results include 27% increase in protection plan attach rates, 19% increase in sales for highly active users, and 53% increase in new device sales [citation:4]. The platform is designed for large enterprises across retail, sales, and customer service.
-**Best for:** Large enterprises wanting a holistic performance platform that blends gamification with learning and coaching, rather than a standalone leaderboard tool.
-
-### Ambition
-**Type:** Sales gamification and coaching platform
-Ambition provides sales gamification with leaderboards, competitions, and coaching tools. It is often compared alongside Spinify and LevelEleven for sales performance management, with a focus on data-driven coaching and accountability.
-
-### LevelEleven
-**Type:** Salesforce-native sales gamification
-LevelEleven provides sales gamification built natively on Salesforce, with competitions, leaderboards, and performance tracking. Suited for organizations already standardized on Salesforce wanting gamification without external integration.
-
-### Hoopla
-**Type:** Live leaderboards and recognition
-Hoopla (now part of SmartWinnr) provides live leaderboards, competitions, and recognition for sales and service teams. Positioned for organizations wanting engaging, TV-based visibility into performance.
-
-### SmartWinnr
-**Type:** Sales gamification with learning reinforcement
-SmartWinnr combines sales gamification with learning reinforcement, helping teams retain product knowledge and sales skills through quizzes, leaderboards, and competitions. Suited for organizations wanting to blend training with performance motivation.
+Market consolidation shows a **moderately fragmented** landscape rather than a winner-take-all monopoly:
+- **Ecosystem Suites:** Broad CRM ecosystem giants like Zoho and Salesforce integrate gamification and scorecard analytics natively into their multi-product bundles.
+- **Specialized SPM & Engagement Providers:** High-growth pure-play vendors (Centrical, SalesScreen, Ambition, Spinify) compete aggressively with deep TV broadcasting, AI-driven scenario coaching, fantasy leagues, and reward fulfillment networks.
+- **Anti-"Winner-Take-All" Mechanics:** In sales team design, industry research confirms that "winner-take-all" contest setups cause disengagement among middle and lower-tier performers; modern platforms instead emphasize threshold goals, peer-to-peer duels, and milestone-based micro-rewards to engage the entire revenue team.
 
 ---
 
-## 🟩 Open-Source Software
+## 🟦 Commercial SaaS Platforms
 
-Self-hosted, community-driven Sales Gamification and Performance Tracking tools. The open-source ecosystem is **fragmented** across general-purpose gamification engines, employee engagement platforms, and niche ERP modules rather than direct Spinify or Zoho Motivator equivalents.
+The table below benchmarks leading SaaS sales gamification solutions, sorted in descending order by company scale (valuation / annual revenue / venture funding).
 
-### GAME (Goals And Motivation Engine)
-**Stack:** Python / FastAPI / PostgreSQL | **License:** Open Source (per GitHub)
-GAME is an open-source gamification engine designed to foster motivation and goal achievement through gamification [citation:7]. It uses PostgreSQL for storage and FastAPI for the API layer, with Keycloak for identity and access management. Features include KPI tracking, points-to-coin conversion rates, and Kubernetes deployment support. **Consideration:** It is a general-purpose gamification engine rather than a sales-specific platform—you would need to build sales leaderboards, competitions, and CRM integration on top of it.
-**Best for:** Developers wanting a flexible gamification engine to build custom sales motivation features, accepting that sales-specific logic must be implemented separately.
-
-### Meeds
-**Stack:** Java / Tomcat / PostgreSQL / Elasticsearch | **License:** LGPL-3.0
-Meeds is an open-source employee engagement platform with spaces for team collaboration, a built-in quest and kudos system for peer recognition, and gamified participation points [citation:6]. It provides a complete engagement foundation with full-text search, secure deployment, and no default admin credentials baked into the image. **Consideration:** Meeds is focused on general employee engagement and recognition rather than sales-specific KPIs and competitions. It could serve as a foundation for a recognition program, but would require customization for sales performance tracking.
-**Best for:** Organizations wanting an open-source employee engagement and recognition platform that includes gamification mechanics, accepting that sales-specific features must be built or integrated.
-
-### Odoo Sales Gamification
-**Stack:** Python / Odoo | **License:** LGPL-3 (per Odoo Apps Store)
-A free Odoo module that adds **real-time target tracking and visual progress bars** directly to Quotations and Sales Orders [citation:12]. Sales managers can set monthly, yearly, or custom-date targets for individual salespersons. When a salesperson creates a quote, a progress bar shows their current progress toward target, updating automatically when the sale is confirmed. Role-based security ensures only managers can configure targets. **Consideration:** This is a lightweight module (141 lines of code) focused on individual progress visibility rather than team competitions or leaderboards. It is Odoo-specific and not a standalone platform.
-**Best for:** Odoo users wanting simple, free target tracking with visual progress on sales documents, without a separate gamification platform.
-
-### gamification-engine (gengine)
-**Stack:** Java | **License:** Open Source (per GitHub)
-gengine is a framework for developing gamification features for applications, listed among GitHub's gamification-platform topics [citation:14]. It provides building blocks for points, badges, and other gamification mechanics that developers can embed in their own applications. **Consideration:** It is a developer framework rather than a ready-to-use sales platform—significant development work is required to turn it into a sales motivation tool.
-**Best for:** Java developers wanting a gamification framework to embed in custom applications, not as a standalone sales tool.
-
-### oasis
-**Stack:** Java | **License:** Open Source (per GitHub)
-oasis is an open-source Points, Badges, Milestones, and Leaderboards (PBML) gamification platform inspired by StackOverflow [citation:14]. It provides the core gamification mechanics for engagement and recognition. **Consideration:** Like gengine, it is a general-purpose gamification platform rather than a sales-specific solution. Sales KPIs, competitions, and CRM integration would need to be built on top.
-**Best for:** Teams wanting a PBML foundation to build a custom gamification program, accepting significant customization work for sales use cases.
+| Product | Company Scale (Valuation / Revenue / Funding) | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Focus & Sales Integrations |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Zoho Motivator](https://www.zoho.com/crm/motivator/)** | **~$12B–$15B** valuation (Zoho Corp ARR: ~$1.5B) | **$14/user/month** (bundled in Zoho CRM Standard; free in Zoho One / CRM Plus) | Free forever plan available (limited to 5 users, 1 KPI competition, company targets) & 15-day trial | Direct Zoho CRM native sync, TV channels, target scorecards, contest broadcasts |
+| **[Centrical](https://centrical.com/)** | **$84M+** raised (incl. $39M Series D; ~$25M+ ARR) | **~$25/user/month** (flat annual user license + pooled AI credits) | ❌ No self-serve free forever plan; 30-day proof-of-concept / guided enterprise pilot | Enterprise frontline performance orchestration, AI roleplay, microlearning, gamified attach rates |
+| **[SalesScreen](https://www.salesscreen.com/)** | **~$64M** valuation (~$8M ARR, $4M funding) | **$15/user/month** (Essentials tier, billed annually) | Free 30-day trial (Essentials tier: max 4 metrics, standard contests, unlimited TV screens) | Visual TV leaderboards, dynamic celebrations, integrated coin reward shop, battle duels |
+| **[Ambition](https://ambition.com/)** | **~$50M–$100M** valuation ($21.2M funding, ~$15M ARR) | **~$19/user/month** (Starter tier; ~$6,840/yr base package) | ❌ No free forever plan; 14-day guided sandbox demo trial for qualified sales teams | Fantasy sports-style sales contests, manager 1-on-1 coaching cadences, Salesforce/HubSpot bi-directional sync |
+| **[Hoopla](https://www.raydiant.com/hoopla/)** (by Raydiant) | **~$25M–$50M** valuation (Raydiant raised $50M+) | **$25/user/month** (Base engagement tier, billed annually) | 30-day fully functional free trial (requires guided demo setup; test contests & TV stream) | Digital signage TV leaderboards, instant sound/video trigger celebrations, Slack/Teams alerts |
+| **[Arcade](https://arcade.co/)** | **~$15M–$25M** valuation ($6M funding, ~$10.6M ARR) | **~$15/user/month** (Frontline workforce package, annual agreement) | ❌ No free forever tier; 14-day pilot trial available for qualified multi-unit sales teams | Gamified retail & frontline sales, Tremendous prize redemptions, micro-incentive challenges |
+| **[SmartWinnr](https://www.smartwinnr.com/)** | **Bootstrapped** (~$3.2M–$8M estimated ARR) | **$10/user/month** (AppExchange baseline tier, annual billing) | 30-day free trial (access to quizzes, leaderboard modules, challenge engine) | Blended gamification with daily knowledge reinforcement quizzes, compliance tracking, AI roleplay |
+| **[LevelEleven](https://leveleleven.com/)** (Ascent Cloud) | **~$10M–$15M** valuation ($9.5M funding, ~$1M–$3M ARR) | **$45/user/month** (Motivate plan, billed annually) | 15-day AppExchange test drive trial environment (Salesforce sandbox deployment) | 100% Salesforce-native performance scorecards, pacing indicators, TV broadcast channel |
+| **[Spinify](https://spinify.com/)** | **Self-funded / Bootstrapped** (~$2M–$3.5M ARR) | **$9/user/month** (Starter package, billed annually) | 14-day free trial (full leaderboard features, unlimited TV channels, Slack/Teams bots) | Octalysis psychological motivation, automated YouTube celebrations, real-time KPI scoreboards |
 
 ---
 
-## 📊 Comparison at a Glance
+### SaaS Platforms Feature & Capability Breakdown
 
-| Software | License | Stack | Sales-Specific | Leaderboards | Self-Hosted | Best For |
-|----------|---------|-------|----------------|--------------|-------------|----------|
-| **Zoho Motivator** | Proprietary | Cloud | ✅ CRM-native | ✅ + TV | ❌ | Zoho CRM users |
-| **Spinify** | Proprietary | Cloud | ✅ | ✅ + TV/Slack | ❌ | Engaging TV leaderboards |
-| **Arcade** | Proprietary | Cloud | ✅ + Training | ✅ | ❌ | Gamified coaching + rewards |
-| **Centrical** | Proprietary | Cloud | ✅ + Microlearning | ✅ | ❌ | Enterprise performance platform |
-| **GAME** | Open Source | Python/FastAPI | ❌ (Engine) | (Custom) | ✅ | Custom gamification engine |
-| **Meeds** | LGPL-3.0 | Java/Postgres | ❌ (Engagement) | (Kudos/Quests) | ✅ | Employee engagement + recognition |
-| **Odoo Sales Gamification** | LGPL-3 | Python/Odoo | ✅ (Targets) | ❌ (Progress bar) | ✅ (Odoo) | Simple Odoo target tracking |
-| **gengine** | Open Source | Java | ❌ (Framework) | (Custom) | ✅ | Embedded gamification framework |
+#### Zoho Motivator
+* **Deployment Model:** CRM-native cloud add-on and suite component.
+* **Core Strengths:** Real-time data pipeline from Zoho CRM to TV screens, custom scorecards, and multi-metric competitions without additional connector maintenance.
+* **Best Suited For:** Existing Zoho CRM and Zoho One users looking for turnkey gamification with zero API integration overhead.
+
+#### Centrical
+* **Deployment Model:** Enterprise workforce performance intelligence OS.
+* **Core Strengths:** Integrates gamified milestone tracking with AI-generated roleplay simulations, adaptive microlearning, and frontline operational QA.
+* **Best Suited For:** Large BPO contact centers, telecommunications, and retail sales networks with thousands of frontline reps.
+
+#### SalesScreen
+* **Deployment Model:** Standalone cloud platform with bidirectional CRM connectors.
+* **Core Strengths:** Cinematic TV broadcast leaderboards, real-time celebration popups with custom music/video clips, peer-to-peer battles, and an integrated rewards marketplace.
+* **Best Suited For:** Mid-market to enterprise outbound sales development (BDR/SDR) and Account Executive teams using Salesforce or HubSpot.
+
+#### Ambition
+* **Deployment Model:** Cloud sales coaching and performance management platform.
+* **Core Strengths:** Fantasy league brackets, rep scorecards, pacing goal trackers, and automated manager coaching cadences that tie directly into CRM closed-won pipeline.
+* **Best Suited For:** Data-driven sales leadership teams looking to balance contest gamification with weekly structured coaching.
+
+#### Hoopla (by Raydiant)
+* **Deployment Model:** Cloud digital workplace signage and performance broadcasting.
+* **Core Strengths:** High-energy visual broadcasts on office monitors, mobile push celebration alerts, and customizable milestone animation clips.
+* **Best Suited For:** Hybrid and in-office sales floors requiring continuous visual motivation on wall-mounted screens.
+
+#### Arcade (arcade.co)
+* **Deployment Model:** Mobile-first frontline gamification and micro-learning platform.
+* **Core Strengths:** Threshold-based contests rewarding reps for beating historical averages; automated prize fulfillment (gift cards, physical goods) via Tremendous.
+* **Best Suited For:** Distributed retail store networks, field sales, and telecommunications teams.
+
+#### SmartWinnr
+* **Deployment Model:** Mobile app and web-based gamified training platform.
+* **Core Strengths:** Blends sales contests and leaderboards with automated daily micro-quizzes, ensuring reps maintain up-to-date knowledge on product catalogs and pitch decks.
+* **Best Suited For:** Regulated sales forces (pharma, financial advisory, insurance) that need verifiable product mastery alongside quota tracking.
+
+#### LevelEleven
+* **Deployment Model:** 100% Salesforce AppExchange native application.
+* **Core Strengths:** Operates strictly within Salesforce data architecture. Zero data leaves your Salesforce tenant; features live TV broadcasts, goal pacing, and coaching notes.
+* **Best Suited For:** Heavily regulated or security-conscious enterprises already standardized exclusively on Salesforce Sales Cloud.
+
+#### Spinify
+* **Deployment Model:** Cloud multi-channel leaderboard platform (TV, Slack, Teams, Mobile).
+* **Core Strengths:** Leverages the Octalysis gamification framework; rapid setup with pre-built leaderboard templates, personalized celebration videos, and tiered point ladders.
+* **Best Suited For:** Fast-growing inside sales and agency teams wanting TV-driven leaderboards with minimal IT setup.
+
+---
+
+## 🟩 Open-Source Software & Developer Frameworks
+
+The open-source landscape provides developer frameworks, gamification engines, and community modules to build custom sales tracking applications without recurring per-seat SaaS costs. 
+
+Projects below are sorted in descending order by GitHub Star count.
+
+| Project | GitHub Stars | Primary Tech Stack | License | Architecture & Gamification Mechanics |
+| :--- | :--- | :--- | :--- | :--- |
+| **[odoo/odoo](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript, PostgreSQL | LGPL-3.0 | Full open-source ERP/CRM suite with built-in `gamification` and `crm_gamification` modules providing sales targets, badges, and challenge goals |
+| **[gitscrum-core/laravel-gitscrum](https://github.com/gitscrum-core/laravel-gitscrum)** | [![GitHub stars](https://img.shields.io/github/stars/gitscrum-core/laravel-gitscrum?style=social&color=white)](https://github.com/gitscrum-core/laravel-gitscrum/stargazers) | PHP (Laravel), Blade, MySQL | GPL-3.0 | Project and sprint performance management platform with built-in gamification mechanics, user points, levels, and milestone rewards |
+| **[qcod/laravel-gamify](https://github.com/qcod/laravel-gamify)** | [![GitHub stars](https://img.shields.io/github/stars/qcod/laravel-gamify?style=social&color=white)](https://github.com/qcod/laravel-gamify/stargazers) | PHP (Laravel) | MIT | Drop-in gamification package for Laravel applications; reputation points, badge definitions, event triggers, and leaderboard rankings |
+| **[cjmellor/level-up](https://github.com/cjmellor/level-up)** | [![GitHub stars](https://img.shields.io/github/stars/cjmellor/level-up?style=social&color=white)](https://github.com/cjmellor/level-up/stargazers) | PHP (Laravel) | MIT | Modular gamification system featuring experience points (XP), dynamic leveling algorithms, achievements, and real-time leaderboard tables |
+| **[ActiDoo/gamification-engine](https://github.com/ActiDoo/gamification-engine)** | [![GitHub stars](https://img.shields.io/github/stars/ActiDoo/gamification-engine?style=social&color=white)](https://github.com/ActiDoo/gamification-engine/stargazers) | Python, PostgreSQL | MIT | Backend gamification platform (gengine) with REST API for achievements, progress ladders, time-based contests, and leaderboards |
+| **[Meeds-io/meeds](https://github.com/Meeds-io/meeds)** | [![GitHub stars](https://img.shields.io/github/stars/Meeds-io/meeds?style=social&color=white)](https://github.com/Meeds-io/meeds/stargazers) | Java, PostgreSQL, Elasticsearch | LGPL-3.0 | Open-source digital workplace hub featuring community spaces, kudos recognition, quest systems, and gamified participation points |
+| **[gstt/laravel-achievements](https://github.com/gstt/laravel-achievements)** | [![GitHub stars](https://img.shields.io/github/stars/gstt/laravel-achievements?style=social&color=white)](https://github.com/gstt/laravel-achievements/stargazers) | PHP (Laravel) | MIT | Pluggable achievement and milestone engine supporting multi-step progress, unlock criteria, and event listeners |
+| **[trophyso/ui](https://github.com/trophyso/ui)** | [![GitHub stars](https://img.shields.io/github/stars/trophyso/ui?style=social&color=white)](https://github.com/trophyso/ui/stargazers) | TypeScript, React, Tailwind CSS | MIT | Open-source collection of reusable frontend gamification UI components including leaderboards, streak counters, badges, and challenge cards |
+| **[isuru89/oasis](https://github.com/isuru89/oasis)** | [![GitHub stars](https://img.shields.io/github/stars/isuru89/oasis?style=social&color=white)](https://github.com/isuru89/oasis/stargazers) | Java, Redis, MySQL | Apache-2.0 | Event-driven Points, Badges, Milestones, and Leaderboards (PBML) engine inspired by StackOverflow badge architecture |
+| **[jrmyward/honor](https://github.com/jrmyward/honor)** | [![GitHub stars](https://img.shields.io/github/stars/jrmyward/honor?style=social&color=white)](https://github.com/jrmyward/honor/stargazers) | Ruby (Rails), ActiveRecord | MIT | Lightweight Ruby on Rails gem providing points ledgers, leaderboard rankings, and achievement rewards |
+| **[fvergaracl/GAME](https://github.com/fvergaracl/GAME)** | [![GitHub stars](https://img.shields.io/github/stars/fvergaracl/GAME?style=social&color=white)](https://github.com/fvergaracl/GAME/stargazers) | Python, FastAPI, PostgreSQL | MIT | Goals And Motivation Engine; adaptive microservice architecture for behavior-aware scoring, virtual coin conversions, and Keycloak auth |
+
+---
+
+### Open-Source Ecosystem Breakdown
+
+#### 1. Odoo Gamification Framework
+* **Repository:** [odoo/odoo](https://github.com/odoo/odoo)
+* **How It Works:** Odoo includes a native `gamification` module in core ERP and CRM editions. Sales teams can create recurring challenges, assign automated goal evaluations (e.g., number of quotation leads created, invoiced revenue, confirmed sales orders), and award badges.
+* **Best For:** Businesses running their operations on Odoo seeking an ERP-native sales motivation solution without external integrations.
+
+#### 2. GitScrum Core
+* **Repository:** [gitscrum-core/laravel-gitscrum](https://github.com/gitscrum-core/laravel-gitscrum)
+* **How It Works:** Combines agile project management with gamified task completion, points, and leaderboard standings for distributed execution teams.
+* **Best For:** Cross-functional technical sales, solutions engineering, and implementation teams.
+
+#### 3. Laravel Gamify & Level-Up
+* **Repositories:** [qcod/laravel-gamify](https://github.com/qcod/laravel-gamify) & [cjmellor/level-up](https://github.com/cjmellor/level-up)
+* **How It Works:** These packages provide ready-to-use Eloquent models and events for tracking user XP, badge unlocks, streak records, and dynamic leaderboards.
+* **Best For:** Developers building bespoke internal sales dashboards or customer-facing portals using the Laravel framework.
+
+#### 4. ActiDoo Gamification Engine (gengine)
+* **Repository:** [ActiDoo/gamification-engine](https://github.com/ActiDoo/gamification-engine)
+* **How It Works:** A dedicated Python-based engine providing REST endpoints for calculating complex progress curves, levels, and time-restricted tournament leaderboards.
+* **Best For:** Engineering teams looking for a standalone gamification microservice to integrate via webhooks with their custom CRM or sales database.
+
+#### 5. Trophy UI
+* **Repository:** [trophyso/ui](https://github.com/trophyso/ui)
+* **How It Works:** Pre-built React components designed with Tailwind CSS and Radix primitives for rendering clean sales scorecards, rank ladders, and achievement popups.
+* **Best For:** Frontend engineers assembling custom real-time sales dashboards.
+
+#### 6. GAME (Goals And Motivation Engine)
+* **Repository:** [fvergaracl/GAME](https://github.com/fvergaracl/GAME)
+* **How It Works:** Built on FastAPI and PostgreSQL, GAME offers rule-based evaluation of user actions, translating raw KPI metrics into points and redeemable coin balances.
+* **Best For:** Teams wanting an open-source, API-first gamification backend capable of deploying via Docker and Kubernetes.
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Platform | Deployment Mode | Sales-Specific CRM Connectors | TV Screen Broadcasting | Peer Battles / Head-to-Head | Automated Reward Fulfillment | Integrated Coaching Cadence |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Zoho Motivator** | Cloud SaaS | ✅ Zoho CRM | ✅ Yes | ✅ Yes | ❌ (Target only) | ❌ Scorecards only |
+| **SalesScreen** | Cloud SaaS | ✅ Salesforce, HubSpot, Leadx | ✅ Yes | ✅ Yes | ✅ Yes (Coin shop) | ✅ Add-on ($5/mo) |
+| **Centrical** | Cloud SaaS | ✅ Salesforce, Zendesk, Genesys | ❌ Mobile/Desktop | ✅ Yes | ✅ Yes | ✅ AI-driven coaching |
+| **Ambition** | Cloud SaaS | ✅ Salesforce, HubSpot | ✅ Yes | ✅ Yes (Fantasy league) | ❌ Manual vouchers | ✅ Built-in 1-on-1s |
+| **Spinify** | Cloud SaaS | ✅ Salesforce, HubSpot, Pipedrive | ✅ Yes | ✅ Yes | ✅ Integrated rewards | ❌ Leaderboard focus |
+| **Hoopla** | Cloud SaaS | ✅ Salesforce, Raydiant Signage | ✅ Yes | ✅ Yes | ❌ (Celebration only) | ❌ (Visuals only) |
+| **LevelEleven** | Salesforce Native | ✅ Salesforce AppExchange | ✅ Yes | ✅ Yes | ❌ Partner integrations | ✅ Built-in cadence |
+| **Odoo Gamification** | Self-Hosted / Cloud | ✅ Odoo CRM Native | ❌ Add-on required | ❌ Badges only | ❌ Manual badges | ❌ Goal evaluations |
+| **ActiDoo (gengine)** | Self-Hosted Open-Source | ⚠️ Via REST API | ❌ Build custom UI | ⚠️ Via custom logic | ❌ Custom integration | ❌ Engine only |
+| **GAME** | Self-Hosted Open-Source | ⚠️ Via FastAPI endpoints | ❌ Build custom UI | ⚠️ Custom rules | ⚠️ Virtual coins API | ❌ Engine only |
+
+---
+
+## 💡 Buying Guide & Implementation Strategy
+
+When choosing between commercial SaaS and open-source gamification tools for your revenue organization, evaluate these criteria:
+
+1. **CRM & Data Pipeline Maturity:**
+   - If your team relies on Salesforce and has strict data compliance requirements, **LevelEleven** or native **Salesforce AppExchange** configurations prevent external data transmission.
+   - If using HubSpot or multi-CRM setups, tools like **SalesScreen** or **Ambition** provide turnkey bidirectional sync.
+2. **Display Infrastructure (In-Office vs. Remote):**
+   - In-office floor environments benefit substantially from **Hoopla**, **Spinify**, or **SalesScreen** displaying live TV streams and triggering sound effects when deals close.
+   - Remote or hybrid teams thrive on Slack/Microsoft Teams notifications, mobile app leaderboards, and peer-to-peer recognition.
+3. **Contest Psychology & Incentive Design:**
+   - Avoid strict top-performer-only prizes. Deploy threshold-based milestones (e.g., beating last quarter's outbound discovery rate) to keep lower and mid-tier representatives engaged.
+4. **Build vs. Buy TCO:**
+   - Building in-house using open-source engines (**gengine**, **GAME**, or **Laravel Gamify**) offers maximum customization and zero per-seat license costs, but requires ongoing frontend development, CRM webhook maintenance, and display UI upkeep.
+   - Commercial SaaS platforms charge **$9–$50/seat/month**, but provide ready-to-use TV broadcasting, CRM integrations, and mobile applications on day one.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Sales Gamification or Performance Tracking tool that should be listed here, please open a pull request with:
+We welcome contributions from the community! If you maintain or use an open-source gamification or sales performance project that should be indexed here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem for **sales-specific gamification** is **extremely limited and fragmented**. Available projects fall into three categories: **general-purpose gamification engines** (GAME, gengine, oasis) that provide points/badges/leaderboards mechanics but require significant development for sales use cases; **employee engagement platforms** (Meeds) that include recognition and quest systems but not sales KPIs; and **niche ERP modules** (Odoo Sales Gamification) that add target tracking to a specific platform. No mature open-source project replicates the sales-specific depth of Spinify, Zoho Motivator, or Centrical, which offer pre-built CRM integrations, TV displays, competitions, and recognition workflows out of the box. For teams wanting open-source gamification today, the practical path is building on a general engine like GAME or embedding mechanics via gengine, accepting substantial custom development.
+1. Fork this repository.
+2. Create a new branch: `git checkout -b add-my-project`.
+3. Add your tool to the relevant table and breakdown section following alphabetical or star-count sorting rules.
+4. Open a pull request with a clear description of the project, stack, and active license.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and its curated contents are licensed under the [CC0 1.0 Universal (Public Domain)](LICENSE). Software tools and platforms referenced within this repository remain subject to their respective copyright holders and open-source or proprietary licenses.
