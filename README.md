@@ -1,22 +1,39 @@
-# Awesome Sales Gamification & Performance Tracking [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-> A curated directory and benchmark of top **Sales Gamification** and **Sales Performance Tracking** platforms — comparing commercial SaaS suites and self-hosted open-source frameworks. Discover tools to motivate sales teams, accelerate pipeline velocity, automate KPI visibility, and drive revenue through leaderboard mechanics, contests, and real-time coaching.
->
-> 🌟 Star this repository if you find it useful for your sales stack! 🌟
+<img src="./assets/banner.svg" alt="Awesome Sales Gamification &amp; Performance Tracking Banner" width="100%" />
+
+# 🏆 Awesome Sales Gamification & Performance Tracking 🚀
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+
+<p align="center">
+  <b>A battle-tested, curated index of world-class Sales Gamification engines, TV leaderboard displays, AI sales coaching platforms, and open-source performance frameworks.</b><br/>
+  <i>Boost team morale, accelerate quota attainment, eliminate seller burnout, and scale pipeline visibility.</i>
+</p>
+
+🌟 **Star this repository if it helps power your sales engine!** 🌟
+
+</div>
 
 ---
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [Commercial SaaS Platforms](#-commercial-saas-platforms)
-  - [SaaS Platforms Feature & Capability Breakdown](#saas-platforms-feature--capability-breakdown)
-- [Open-Source Software & Developer Frameworks](#-open-source-software--developer-frameworks)
-  - [Open-Source Ecosystem Breakdown](#open-source-ecosystem-breakdown)
-- [Feature Comparison Matrix](#-feature-comparison-matrix)
-- [Buying Guide & Implementation Strategy](#-buying-guide--implementation-strategy)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 Commercial SaaS Platforms](#-commercial-saas-platforms)
+  - [🔍 SaaS Platforms Feature & Capability Breakdown](#-saas-platforms-feature--capability-breakdown)
+- [🔓 Open-Source Software & Developer Frameworks](#-open-source-software--developer-frameworks)
+  - [⚙️ Open-Source Ecosystem Breakdown](#-open-source-ecosystem-breakdown)
+- [📊 Feature Comparison Matrix](#-feature-comparison-matrix)
+- [💡 Buying Guide & Implementation Strategy](#-buying-guide--implementation-strategy)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -25,17 +42,17 @@
 The global gamification software sector is estimated at **$30+ billion**, with the dedicated sales gamification, incentive compensation, and sales performance management (SPM) sub-segment accounting for over **$4 billion** and projected to surpass **$14 billion** at a compound annual growth rate (CAGR) exceeding 20%. 
 
 Market consolidation shows a **moderately fragmented** landscape rather than a winner-take-all monopoly:
-- **Ecosystem Suites:** Broad CRM ecosystem giants like Zoho and Salesforce integrate gamification and scorecard analytics natively into their multi-product bundles.
-- **Specialized SPM & Engagement Providers:** High-growth pure-play vendors (Centrical, SalesScreen, Ambition, Spinify) compete aggressively with deep TV broadcasting, AI-driven scenario coaching, fantasy leagues, and reward fulfillment networks.
-- **Anti-"Winner-Take-All" Mechanics:** In sales team design, industry research confirms that "winner-take-all" contest setups cause disengagement among middle and lower-tier performers; modern platforms instead emphasize threshold goals, peer-to-peer duels, and milestone-based micro-rewards to engage the entire revenue team.
+- 🏢 **Ecosystem Suites:** Broad CRM ecosystem giants like Zoho and Salesforce integrate gamification and scorecard analytics natively into their multi-product bundles.
+- 🎯 **Specialized SPM & Engagement Providers:** High-growth pure-play vendors (Centrical, SalesScreen, Ambition, Spinify) compete aggressively with deep TV broadcasting, AI-driven scenario coaching, fantasy leagues, and reward fulfillment networks.
+- 🛡️ **Anti-"Winner-Take-All" Mechanics:** In sales team design, industry research confirms that "winner-take-all" contest setups cause disengagement among middle and lower-tier performers; modern platforms instead emphasize threshold goals, peer-to-peer duels, and milestone-based micro-rewards to engage the entire revenue team.
 
 ---
 
-## 🟦 Commercial SaaS Platforms
+## 🏢 Commercial SaaS Platforms
 
 The table below benchmarks leading SaaS sales gamification solutions, sorted in descending order by company scale (valuation / annual revenue / venture funding).
 
-| Product | Company Scale (Valuation / Revenue / Funding) | Starting Tier Pricing | Free Tier / Free Trial Limits | Key Focus & Sales Integrations |
+| 🏷️ Product | 📈 Company Scale (Valuation / Revenue / Funding) | 💰 Starting Tier Pricing | 🎁 Free Tier / Free Trial Limits | 🎯 Key Focus & Sales Integrations |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Zoho Motivator](https://www.zoho.com/crm/motivator/)** | **~$12B–$15B** valuation (Zoho Corp ARR: ~$1.5B) | **$14/user/month** (bundled in Zoho CRM Standard; free in Zoho One / CRM Plus) | Free forever plan available (limited to 5 users, 1 KPI competition, company targets) & 15-day trial | Direct Zoho CRM native sync, TV channels, target scorecards, contest broadcasts |
 | **[Centrical](https://centrical.com/)** | **$84M+** raised (incl. $39M Series D; ~$25M+ ARR) | **~$25/user/month** (flat annual user license + pooled AI credits) | ❌ No self-serve free forever plan; 30-day proof-of-concept / guided enterprise pilot | Enterprise frontline performance orchestration, AI roleplay, microlearning, gamified attach rates |
@@ -49,62 +66,62 @@ The table below benchmarks leading SaaS sales gamification solutions, sorted in 
 
 ---
 
-### SaaS Platforms Feature & Capability Breakdown
+### 🔍 SaaS Platforms Feature & Capability Breakdown
 
-#### Zoho Motivator
-* **Deployment Model:** CRM-native cloud add-on and suite component.
-* **Core Strengths:** Real-time data pipeline from Zoho CRM to TV screens, custom scorecards, and multi-metric competitions without additional connector maintenance.
-* **Best Suited For:** Existing Zoho CRM and Zoho One users looking for turnkey gamification with zero API integration overhead.
+#### 🏆 Zoho Motivator
+* **🚀 Deployment Model:** CRM-native cloud add-on and suite component.
+* **💪 Core Strengths:** Real-time data pipeline from Zoho CRM to TV screens, custom scorecards, and multi-metric competitions without additional connector maintenance.
+* **🎯 Best Suited For:** Existing Zoho CRM and Zoho One users looking for turnkey gamification with zero API integration overhead.
 
-#### Centrical
-* **Deployment Model:** Enterprise workforce performance intelligence OS.
-* **Core Strengths:** Integrates gamified milestone tracking with AI-generated roleplay simulations, adaptive microlearning, and frontline operational QA.
-* **Best Suited For:** Large BPO contact centers, telecommunications, and retail sales networks with thousands of frontline reps.
+#### 🧠 Centrical
+* **🚀 Deployment Model:** Enterprise workforce performance intelligence OS.
+* **💪 Core Strengths:** Integrates gamified milestone tracking with AI-generated roleplay simulations, adaptive microlearning, and frontline operational QA.
+* **🎯 Best Suited For:** Large BPO contact centers, telecommunications, and retail sales networks with thousands of frontline reps.
 
-#### SalesScreen
-* **Deployment Model:** Standalone cloud platform with bidirectional CRM connectors.
-* **Core Strengths:** Cinematic TV broadcast leaderboards, real-time celebration popups with custom music/video clips, peer-to-peer battles, and an integrated rewards marketplace.
-* **Best Suited For:** Mid-market to enterprise outbound sales development (BDR/SDR) and Account Executive teams using Salesforce or HubSpot.
+#### 📺 SalesScreen
+* **🚀 Deployment Model:** Standalone cloud platform with bidirectional CRM connectors.
+* **💪 Core Strengths:** Cinematic TV broadcast leaderboards, real-time celebration popups with custom music/video clips, peer-to-peer battles, and an integrated rewards marketplace.
+* **🎯 Best Suited For:** Mid-market to enterprise outbound sales development (BDR/SDR) and Account Executive teams using Salesforce or HubSpot.
 
-#### Ambition
-* **Deployment Model:** Cloud sales coaching and performance management platform.
-* **Core Strengths:** Fantasy league brackets, rep scorecards, pacing goal trackers, and automated manager coaching cadences that tie directly into CRM closed-won pipeline.
-* **Best Suited For:** Data-driven sales leadership teams looking to balance contest gamification with weekly structured coaching.
+#### 🏈 Ambition
+* **🚀 Deployment Model:** Cloud sales coaching and performance management platform.
+* **💪 Core Strengths:** Fantasy league brackets, rep scorecards, pacing goal trackers, and automated manager coaching cadences that tie directly into CRM closed-won pipeline.
+* **🎯 Best Suited For:** Data-driven sales leadership teams looking to balance contest gamification with weekly structured coaching.
 
-#### Hoopla (by Raydiant)
-* **Deployment Model:** Cloud digital workplace signage and performance broadcasting.
-* **Core Strengths:** High-energy visual broadcasts on office monitors, mobile push celebration alerts, and customizable milestone animation clips.
-* **Best Suited For:** Hybrid and in-office sales floors requiring continuous visual motivation on wall-mounted screens.
+#### 📣 Hoopla (by Raydiant)
+* **🚀 Deployment Model:** Cloud digital workplace signage and performance broadcasting.
+* **💪 Core Strengths:** High-energy visual broadcasts on office monitors, mobile push celebration alerts, and customizable milestone animation clips.
+* **🎯 Best Suited For:** Hybrid and in-office sales floors requiring continuous visual motivation on wall-mounted screens.
 
-#### Arcade (arcade.co)
-* **Deployment Model:** Mobile-first frontline gamification and micro-learning platform.
-* **Core Strengths:** Threshold-based contests rewarding reps for beating historical averages; automated prize fulfillment (gift cards, physical goods) via Tremendous.
-* **Best Suited For:** Distributed retail store networks, field sales, and telecommunications teams.
+#### 🎮 Arcade (arcade.co)
+* **🚀 Deployment Model:** Mobile-first frontline gamification and micro-learning platform.
+* **💪 Core Strengths:** Threshold-based contests rewarding reps for beating historical averages; automated prize fulfillment (gift cards, physical goods) via Tremendous.
+* **🎯 Best Suited For:** Distributed retail store networks, field sales, and telecommunications teams.
 
-#### SmartWinnr
-* **Deployment Model:** Mobile app and web-based gamified training platform.
-* **Core Strengths:** Blends sales contests and leaderboards with automated daily micro-quizzes, ensuring reps maintain up-to-date knowledge on product catalogs and pitch decks.
-* **Best Suited For:** Regulated sales forces (pharma, financial advisory, insurance) that need verifiable product mastery alongside quota tracking.
+#### 💡 SmartWinnr
+* **🚀 Deployment Model:** Mobile app and web-based gamified training platform.
+* **💪 Core Strengths:** Blends sales contests and leaderboards with automated daily micro-quizzes, ensuring reps maintain up-to-date knowledge on product catalogs and pitch decks.
+* **🎯 Best Suited For:** Regulated sales forces (pharma, financial advisory, insurance) that need verifiable product mastery alongside quota tracking.
 
-#### LevelEleven
-* **Deployment Model:** 100% Salesforce AppExchange native application.
-* **Core Strengths:** Operates strictly within Salesforce data architecture. Zero data leaves your Salesforce tenant; features live TV broadcasts, goal pacing, and coaching notes.
-* **Best Suited For:** Heavily regulated or security-conscious enterprises already standardized exclusively on Salesforce Sales Cloud.
+#### ⚡ LevelEleven
+* **🚀 Deployment Model:** 100% Salesforce AppExchange native application.
+* **💪 Core Strengths:** Operates strictly within Salesforce data architecture. Zero data leaves your Salesforce tenant; features live TV broadcasts, goal pacing, and coaching notes.
+* **🎯 Best Suited For:** Heavily regulated or security-conscious enterprises already standardized exclusively on Salesforce Sales Cloud.
 
-#### Spinify
-* **Deployment Model:** Cloud multi-channel leaderboard platform (TV, Slack, Teams, Mobile).
-* **Core Strengths:** Leverages the Octalysis gamification framework; rapid setup with pre-built leaderboard templates, personalized celebration videos, and tiered point ladders.
-* **Best Suited For:** Fast-growing inside sales and agency teams wanting TV-driven leaderboards with minimal IT setup.
+#### 🏎️ Spinify
+* **🚀 Deployment Model:** Cloud multi-channel leaderboard platform (TV, Slack, Teams, Mobile).
+* **💪 Core Strengths:** Leverages the Octalysis gamification framework; rapid setup with pre-built leaderboard templates, personalized celebration videos, and tiered point ladders.
+* **🎯 Best Suited For:** Fast-growing inside sales and agency teams wanting TV-driven leaderboards with minimal IT setup.
 
 ---
 
-## 🟩 Open-Source Software & Developer Frameworks
+## 🔓 Open-Source Software & Developer Frameworks
 
 The open-source landscape provides developer frameworks, gamification engines, and community modules to build custom sales tracking applications without recurring per-seat SaaS costs. 
 
 Projects below are sorted in descending order by GitHub Star count.
 
-| Project | GitHub Stars | Primary Tech Stack | License | Architecture & Gamification Mechanics |
+| 📦 Project | ⭐ GitHub Stars | 💻 Primary Tech Stack | 📜 License | 🧩 Architecture & Gamification Mechanics |
 | :--- | :--- | :--- | :--- | :--- |
 | **[odoo/odoo](https://github.com/odoo/odoo)** | [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript, PostgreSQL | LGPL-3.0 | Full open-source ERP/CRM suite with built-in `gamification` and `crm_gamification` modules providing sales targets, badges, and challenge goals |
 | **[gitscrum-core/laravel-gitscrum](https://github.com/gitscrum-core/laravel-gitscrum)** | [![GitHub stars](https://img.shields.io/github/stars/gitscrum-core/laravel-gitscrum?style=social&color=white)](https://github.com/gitscrum-core/laravel-gitscrum/stargazers) | PHP (Laravel), Blade, MySQL | GPL-3.0 | Project and sprint performance management platform with built-in gamification mechanics, user points, levels, and milestone rewards |
@@ -120,43 +137,43 @@ Projects below are sorted in descending order by GitHub Star count.
 
 ---
 
-### Open-Source Ecosystem Breakdown
+### ⚙️ Open-Source Ecosystem Breakdown
 
-#### 1. Odoo Gamification Framework
-* **Repository:** [odoo/odoo](https://github.com/odoo/odoo)
-* **How It Works:** Odoo includes a native `gamification` module in core ERP and CRM editions. Sales teams can create recurring challenges, assign automated goal evaluations (e.g., number of quotation leads created, invoiced revenue, confirmed sales orders), and award badges.
-* **Best For:** Businesses running their operations on Odoo seeking an ERP-native sales motivation solution without external integrations.
+#### 1. 🏢 Odoo Gamification Framework
+* **🔗 Repository:** [odoo/odoo](https://github.com/odoo/odoo)
+* **🛠️ How It Works:** Odoo includes a native `gamification` module in core ERP and CRM editions. Sales teams can create recurring challenges, assign automated goal evaluations (e.g., number of quotation leads created, invoiced revenue, confirmed sales orders), and award badges.
+* **🎯 Best For:** Businesses running their operations on Odoo seeking an ERP-native sales motivation solution without external integrations.
 
-#### 2. GitScrum Core
-* **Repository:** [gitscrum-core/laravel-gitscrum](https://github.com/gitscrum-core/laravel-gitscrum)
-* **How It Works:** Combines agile project management with gamified task completion, points, and leaderboard standings for distributed execution teams.
-* **Best For:** Cross-functional technical sales, solutions engineering, and implementation teams.
+#### 2. 📋 GitScrum Core
+* **🔗 Repository:** [gitscrum-core/laravel-gitscrum](https://github.com/gitscrum-core/laravel-gitscrum)
+* **🛠️ How It Works:** Combines agile project management with gamified task completion, points, and leaderboard standings for distributed execution teams.
+* **🎯 Best For:** Cross-functional technical sales, solutions engineering, and implementation teams.
 
-#### 3. Laravel Gamify & Level-Up
-* **Repositories:** [qcod/laravel-gamify](https://github.com/qcod/laravel-gamify) & [cjmellor/level-up](https://github.com/cjmellor/level-up)
-* **How It Works:** These packages provide ready-to-use Eloquent models and events for tracking user XP, badge unlocks, streak records, and dynamic leaderboards.
-* **Best For:** Developers building bespoke internal sales dashboards or customer-facing portals using the Laravel framework.
+#### 3. 🚀 Laravel Gamify & Level-Up
+* **🔗 Repositories:** [qcod/laravel-gamify](https://github.com/qcod/laravel-gamify) & [cjmellor/level-up](https://github.com/cjmellor/level-up)
+* **🛠️ How It Works:** These packages provide ready-to-use Eloquent models and events for tracking user XP, badge unlocks, streak records, and dynamic leaderboards.
+* **🎯 Best For:** Developers building bespoke internal sales dashboards or customer-facing portals using the Laravel framework.
 
-#### 4. ActiDoo Gamification Engine (gengine)
-* **Repository:** [ActiDoo/gamification-engine](https://github.com/ActiDoo/gamification-engine)
-* **How It Works:** A dedicated Python-based engine providing REST endpoints for calculating complex progress curves, levels, and time-restricted tournament leaderboards.
-* **Best For:** Engineering teams looking for a standalone gamification microservice to integrate via webhooks with their custom CRM or sales database.
+#### 4. 🐍 ActiDoo Gamification Engine (gengine)
+* **🔗 Repository:** [ActiDoo/gamification-engine](https://github.com/ActiDoo/gamification-engine)
+* **🛠️ How It Works:** A dedicated Python-based engine providing REST endpoints for calculating complex progress curves, levels, and time-restricted tournament leaderboards.
+* **🎯 Best For:** Engineering teams looking for a standalone gamification microservice to integrate via webhooks with their custom CRM or sales database.
 
-#### 5. Trophy UI
-* **Repository:** [trophyso/ui](https://github.com/trophyso/ui)
-* **How It Works:** Pre-built React components designed with Tailwind CSS and Radix primitives for rendering clean sales scorecards, rank ladders, and achievement popups.
-* **Best For:** Frontend engineers assembling custom real-time sales dashboards.
+#### 5. 🎨 Trophy UI
+* **🔗 Repository:** [trophyso/ui](https://github.com/trophyso/ui)
+* **🛠️ How It Works:** Pre-built React components designed with Tailwind CSS and Radix primitives for rendering clean sales scorecards, rank ladders, and achievement popups.
+* **🎯 Best For:** Frontend engineers assembling custom real-time sales dashboards.
 
-#### 6. GAME (Goals And Motivation Engine)
-* **Repository:** [fvergaracl/GAME](https://github.com/fvergaracl/GAME)
-* **How It Works:** Built on FastAPI and PostgreSQL, GAME offers rule-based evaluation of user actions, translating raw KPI metrics into points and redeemable coin balances.
-* **Best For:** Teams wanting an open-source, API-first gamification backend capable of deploying via Docker and Kubernetes.
+#### 6. 🎯 GAME (Goals And Motivation Engine)
+* **🔗 Repository:** [fvergaracl/GAME](https://github.com/fvergaracl/GAME)
+* **🛠️ How It Works:** Built on FastAPI and PostgreSQL, GAME offers rule-based evaluation of user actions, translating raw KPI metrics into points and redeemable coin balances.
+* **🎯 Best For:** Teams wanting an open-source, API-first gamification backend capable of deploying via Docker and Kubernetes.
 
 ---
 
 ## 📊 Feature Comparison Matrix
 
-| Platform | Deployment Mode | Sales-Specific CRM Connectors | TV Screen Broadcasting | Peer Battles / Head-to-Head | Automated Reward Fulfillment | Integrated Coaching Cadence |
+| 🛠️ Platform | ☁️ Deployment Mode | 🔄 Sales-Specific CRM Connectors | 📺 TV Screen Broadcasting | ⚔️ Peer Battles / Head-to-Head | 🎁 Automated Reward Fulfillment | 🧑‍🏫 Integrated Coaching Cadence |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Zoho Motivator** | Cloud SaaS | ✅ Zoho CRM | ✅ Yes | ✅ Yes | ❌ (Target only) | ❌ Scorecards only |
 | **SalesScreen** | Cloud SaaS | ✅ Salesforce, HubSpot, Leadx | ✅ Yes | ✅ Yes | ✅ Yes (Coin shop) | ✅ Add-on ($5/mo) |
@@ -175,17 +192,34 @@ Projects below are sorted in descending order by GitHub Star count.
 
 When choosing between commercial SaaS and open-source gamification tools for your revenue organization, evaluate these criteria:
 
-1. **CRM & Data Pipeline Maturity:**
+1. 🔄 **CRM & Data Pipeline Maturity:**
    - If your team relies on Salesforce and has strict data compliance requirements, **LevelEleven** or native **Salesforce AppExchange** configurations prevent external data transmission.
    - If using HubSpot or multi-CRM setups, tools like **SalesScreen** or **Ambition** provide turnkey bidirectional sync.
-2. **Display Infrastructure (In-Office vs. Remote):**
+2. 📺 **Display Infrastructure (In-Office vs. Remote):**
    - In-office floor environments benefit substantially from **Hoopla**, **Spinify**, or **SalesScreen** displaying live TV streams and triggering sound effects when deals close.
    - Remote or hybrid teams thrive on Slack/Microsoft Teams notifications, mobile app leaderboards, and peer-to-peer recognition.
-3. **Contest Psychology & Incentive Design:**
+3. 🧠 **Contest Psychology & Incentive Design:**
    - Avoid strict top-performer-only prizes. Deploy threshold-based milestones (e.g., beating last quarter's outbound discovery rate) to keep lower and mid-tier representatives engaged.
-4. **Build vs. Buy TCO:**
+4. ⚖️ **Build vs. Buy TCO:**
    - Building in-house using open-source engines (**gengine**, **GAME**, or **Laravel Gamify**) offers maximum customization and zero per-seat license costs, but requires ongoing frontend development, CRM webhook maintenance, and display UI upkeep.
    - Commercial SaaS platforms charge **$9–$50/seat/month**, but provide ready-to-use TV broadcasting, CRM integrations, and mobile applications on day one.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Sales-Gamification-Performance-Tracking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Sales-Gamification-Performance-Tracking&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated repository! If you find this guide valuable for your revenue operations, product research, or gamification stack, here are ways you can support the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork the repo** and contribute additions, updates, or case studies.
+- 📢 **Share this list** with your fellow sales leaders, RevOps engineers, and founders on LinkedIn, Twitter/X, and sales communities.
+- ☕ **Buy a coffee & sponsor ongoing maintenance:** Support our open-source research and curate more tooling lists through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
@@ -193,10 +227,10 @@ When choosing between commercial SaaS and open-source gamification tools for you
 
 We welcome contributions from the community! If you maintain or use an open-source gamification or sales performance project that should be indexed here:
 
-1. Fork this repository.
-2. Create a new branch: `git checkout -b add-my-project`.
-3. Add your tool to the relevant table and breakdown section following alphabetical or star-count sorting rules.
-4. Open a pull request with a clear description of the project, stack, and active license.
+1. 🍴 Fork this repository.
+2. 🌿 Create a new branch: `git checkout -b add-my-project`.
+3. 📝 Add your tool to the relevant table and breakdown section following alphabetical or star-count sorting rules.
+4. 🚀 Open a pull request with a clear description of the project, stack, and active license.
 
 ---
 
